@@ -31,40 +31,46 @@ import cat_marketing from "../assets/images/cat_marketing.png";
 import cat_python from "../assets/images/cat_python.png";
 const python_5 = "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg"
 
-const course_images = {
-  aws_1,
-  aws_2,
-  aws_3,
-  data_science_1,
-  data_science_2,
-  data_science_3,
-  data_science_4,
-  data_science_5,
-  python_1,
-  python_2,
-  python_3,
-  python_4,
-  python_5,
-  web_dev_1,
-  web_dev_2,
-  web_dev_3,
-  web_dev_4,
-  web_dev_5,
-  marketing_1,
-  marketing_2,
-  design_1,
-  design_2,
-};
+// const course_images = {
+//   aws_1,
+//   aws_2,
+//   aws_3,
+//   data_science_1,
+//   data_science_2,
+//   data_science_3,
+//   data_science_4,
+//   data_science_5,
+//   python_1,
+//   python_2,
+//   python_3,
+//   python_4,
+//   python_5,
+//   web_dev_1,
+//   web_dev_2,
+//   web_dev_3,
+//   web_dev_4,
+//   web_dev_5,
+//   marketing_1,
+//   marketing_2,
+//   design_1,
+//   design_2,
+// };
 
-const other_images = { hero_img, logo_udemy };
+// // const other_images = { hero_img, logo_udemy };
 
-const categories_images = [
-  cat_python,
-  cat_web_development,
-  cat_data_science,
-  cat_aws,
-  cat_design,
-  cat_marketing,
-];
+// const categories_images = [
+//   cat_python,
+//   cat_web_development,
+//   cat_data_science,
+//   cat_aws,
+//   cat_design,
+//   cat_marketing,
+// ];
 
+import imagesData from './sampleImages.json';
+
+const { course_images, other_images, categories_images } = imagesData;
 export { course_images, other_images, categories_images };
+
+// Now you can use these imported variables in your code.
+

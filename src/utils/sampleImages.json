@@ -1,0 +1,39 @@
+{
+    "course_images": {
+      "aws_1": "../assets/images/aws_1.jpg",
+      "aws_2": "../assets/images/aws_2.jpg",
+      "aws_3": "../assets/images/aws_3.jpg",
+      "data_science_1": "../assets/images/data_science_1.jpg",
+      "data_science_2": "../assets/images/data_science_2.jpg",
+      "data_science_3": "../assets/images/data_science_3.jpg",
+      "data_science_4": "../assets/images/data_science_4.jpg",
+      "data_science_5": "../assets/images/data_science_5.jpg",
+      "python_1": "../assets/images/python_1.jpg",
+      "python_2": "../assets/images/python_2.jpg",
+      "python_3": "../assets/images/python_3.jpg",
+      "python_4": "../assets/images/python_4.jpg",
+      "python_5": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
+      "web_dev_1": "../assets/images/web_dev_1.jpg",
+      "web_dev_2": "../assets/images/web_dev_2.jpg",
+      "web_dev_3": "../assets/images/web_dev_3.jpg",
+      "web_dev_4": "../assets/images/web_dev_4.jpg",
+      "web_dev_5": "../assets/images/web_dev_5.jpg",
+      "marketing_1": "../assets/images/marketing_1.jpg",
+      "marketing_2": "../assets/images/marketing_2.jpg",
+      "design_1": "../assets/images/design_1.jpg",
+      "design_2": "../assets/images/design_2.jpg"
+    },
+    "other_images": {
+      "hero_img": "../assets/images/hero_img.png",
+      "logo_udemy": "../assets/images/logo_udemy.png"
+    },
+    "categories_images": [
+      "../assets/images/cat_python.png",
+      "../assets/images/cat_web_development.png",
+      "../assets/images/cat_data_science.png",
+      "../assets/images/cat_aws.png",
+      "../assets/images/cat_design.png",
+      "../assets/images/cat_marketing.png"
+    ]
+  }
+  
