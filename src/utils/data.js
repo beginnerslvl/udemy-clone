@@ -641,6 +641,37 @@ const courses = [
         ]
     },
     {
+        id: "bLZepe",
+        category: "aws",
+        image: course_images.design_1,
+        course_name: "just checking for an update",
+        description: "Get a job in UX and build your user research and UX design skills with this hands-on user experience training course.",
+        rating_count: 6250,
+        rating_star: 4.4,
+        students: 22090,
+        creator: "David Travis",
+        updated_date: "4/2020",
+        lang: ["english", "italian"],
+        actual_price: 79.99,
+        discounted_price: 16.99,
+        what_you_will_learn: [
+            "Bake UX into your workflow by following a proven, user centred design framework.",
+            "Moderate a usability test and prioritise the observations.",
+            "Uncover and describe users’ mental models.",
+            "Design and conduct online and offline card sorting sessions.",
+            "Develop cheap, throwaway prototypes to get quick and frequent feedback from your users."
+        ],
+        content: [
+            "Going where the action is: Understading users in context",
+            "How to get niche quick",
+            "UX Design Activities - Build your UX Portfolio",
+            "What can a London bus teach us about usability?",
+            "Beyong 'easy to use': Measuring the user experience",
+            "Site structure and navigation: Finding is the new doing",
+            "Interaction design: Simple rules for designing simple screens"
+        ]
+    },
+    {
         id: "RkZecd",
         category: "marketing",
         image: course_images.marketing_1,
