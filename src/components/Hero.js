@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
-import config from '.../utils/config';
+import config from '../utils/config';
 const herotext = config.navbarItems.map(item => item.label);
 
 const slogon = herotext[0]
