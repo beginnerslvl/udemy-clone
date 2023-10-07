@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
+import config from '.../utils/data';
+import config from '.../utils/config';
+const herotext = config.navbarItems.map(item => item.label);
 
-const footertext = defaultConfig.heroItems.map(item => item.label);
-
-const slogan1 = footertext[0];
-const slogan2 = footertext[1];
-
-console.log(slogan1,slogan2)
+const slogon = herotext[0]
+console.log(slogon)
 // and so on...
 
 const Hero = () => {

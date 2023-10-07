@@ -2,6 +2,7 @@ import { course_images } from "./images";
 
 
 const courses = [
+    
     {
         id: "xMHCZl",
         category: "Islamic Studies", // Change category
@@ -147,17 +148,13 @@ const courses = [
             "Islamic Art Conservation"
         ]
     },
+
+    
 ];
-const config = {
-    heroItems: [
-      { label: 'Вкусная Еда - 70% Скидка' },
-      { label: 'Удовлетворьте Свои Желания' },
-      { label: 'Опыт Кулинарной Магии' },
-    ],
-  };
+
   
 
-export { config as default, courses };
+export default courses;
 export const PYTHON = "Islamic Studies"; // Change category names as needed
 export const WEB_DEVELOPMENT = "Islamic History";
 export const DATA_SCIENCE = "Quranic Studies";
