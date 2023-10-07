@@ -33,7 +33,7 @@ const courses = [
     {
         id: "dtfo9e",
         category: "Islamic Studies", // Change category
-        image: course_images.python_4,
+        image: "https://hips.hearstapps.com/hmg-prod/images/group-portrait-of-adorable-puppies-royalty-free-image-1687451786.jpg",
         course_name: "Islamic Finance and Banking",
         description: "Learn about Islamic finance principles and banking practices in accordance with Shariah law.",
         rating_count: 3059,
