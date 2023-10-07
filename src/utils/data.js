@@ -4,6 +4,12 @@ import { fetchPexelsImageUrl } from './api';
 // Call the imported function to fetch and log the image URL
 fetchPexelsImageUrl();
 
+const courseImageMapping = {
+    "Islamic Studies: The Comprehensive Islamic Course Studies": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
+    "Islamic Finance and Banking": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
+    "Islamic Art and Architecture": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
+    // Add other course names and corresponding image URLs here
+};
 
 const courses = [
     
@@ -95,63 +101,7 @@ const courses = [
     },
     
 
-    {
-        id: "dtfo9e",
-        category: "Islamic History", // Change category
-        image: course_images.python_4,
-        course_name: "Islamic Finance and Banking",
-        description: "Learn about Islamic finance principles and banking practices in accordance with Shariah law.",
-        rating_count: 3059,
-        rating_star: 4.3,
-        students: 184053,
-        creator: "Islamic Finance Expert",
-        updated_date: "9/2019",
-        lang: "English",
-        actual_price: 84.99,
-        discounted_price: 9.99,
-        what_you_will_learn: [
-            "Understand the Principles of Islamic Finance",
-            "Explore Shariah-Compliant Investment",
-            "Learn Islamic Banking Practices",
-            "Evaluate Islamic Insurance (Takaful)"
-        ],
-        content: [
-            "Introduction to Islamic Finance",
-            "Islamic Banking Products",
-            "Islamic Investment Principles",
-            "Islamic Insurance (Takaful)",
-            "Islamic Financial Markets",
-            "Islamic Finance Case Studies"
-        ]
-    },
-    {
-        id: "fLroW6",
-        category: "Islamic Studies", // Change category
-        image: course_images.python_3,
-        course_name: "Islamic Art and Architecture",
-        description: "Explore the rich heritage of Islamic art and architecture across different cultures and time periods.",
-        rating_count: 1844,
-        rating_star: 4.3,
-        students: 7330,
-        creator: "Islamic Art Historian",
-        updated_date: "5/2022",
-        lang: "English",
-        actual_price: 84.99,
-        discounted_price: 9.99,
-        what_you_will_learn: [
-            "Discover Islamic Art Styles",
-            "Explore Islamic Architecture",
-            "Understand Calligraphy and Manuscripts"
-        ],
-        content: [
-            "Introduction to Islamic Art",
-            "Islamic Calligraphy",
-            "Islamic Manuscripts",
-            "Islamic Architecture",
-            "Islamic Art Across Cultures",
-            "Islamic Art Conservation"
-        ]
-    },
+
 
     
 ];
