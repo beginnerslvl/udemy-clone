@@ -1,12 +1,5 @@
 import { course_images } from "./images";
 
-const config = { 
-    heroItems: [
-        { label: 'Вкусная Еда - 70% Скидка' },
-        { label: 'Удовлетворьте Свои Желания' },
-        { label: 'Опыт Кулинарной Магии' },
-      ],
-}
 
 const courses = [
     {
@@ -155,8 +148,16 @@ const courses = [
         ]
     },
 ];
+const config = {
+    heroItems: [
+      { label: 'Вкусная Еда - 70% Скидка' },
+      { label: 'Удовлетворьте Свои Желания' },
+      { label: 'Опыт Кулинарной Магии' },
+    ],
+  };
+  
 
-export default courses;
+export { config, courses };
 export const PYTHON = "Islamic Studies"; // Change category names as needed
 export const WEB_DEVELOPMENT = "Islamic History";
 export const DATA_SCIENCE = "Quranic Studies";
