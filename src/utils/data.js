@@ -1,53 +1,13 @@
 import { course_images } from "./images";
-import { fetchPexelsImageUrl } from './api';
 
-// Call the imported function to fetch and log the image URL
-fetchPexelsImageUrl('nature')
-    .then((imageUrl) => {
-        console.log(`Image URL: ${imageUrl}`);
-    })
-    .catch((error) => {
-        console.error(`Error fetching image: ${error}`);
-    });
-
-
-    const courseImageMapping = {
-        "Islamic Studies: The Comprehensive Islamic Course Studies": null,
-        "Islamic Finance and Banking": null,
-        "Islamic Art and Architecture": null,
-        // Add other course names as keys with null values
-    };
-    
-    export async function updateCourseImageMapping(courseImageMapping) {
-        for (const courseName in courseImageMapping) {
-            if (courseImageMapping.hasOwnProperty(courseName)) {
-                try {
-                    const imageUrl = await fetchPexelsImageUrl(courseName);
-                    courseImageMapping[courseName] = imageUrl;
-                } catch (error) {
-                    console.error(`Error fetching image for "${courseName}": ${error}`);
-                }
-            }
-        }
-    }
-    
-    // Call the function to update the courseImageMapping object
-    updateCourseImageMapping(courseImageMapping)
-        .then(() => {
-            console.log("Updated courseImageMapping:", courseImageMapping);
-        })
-        .catch((error) => {
-            console.error("Error updating courseImageMapping:", error);
-        });
-    
 
 const courses = [
     
     {
         id: "xMHCZl",
         category: "Islamic Studies", // Change category
+        image: course_images.python_5,
         course_name: "Islamic Studies: The Comprehensive Islamic Course",
-        image: "",
         description: "Learn A-Z everything about Islamic Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
         rating_count: 3059,
         rating_star: 4.4,
@@ -75,7 +35,7 @@ const courses = [
     {
         id: "dtfo9e",
         category: "Islamic Studies", // Change category
-        image: "course_images.python_4",
+        image: course_images.python_4,
         course_name: "Islamic Finance and Banking",
         description: "Learn about Islamic finance principles and banking practices in accordance with Shariah law.",
         rating_count: 3059,
@@ -131,23 +91,72 @@ const courses = [
     },
     
 
-
+    {
+        id: "dtfo9e",
+        category: "Islamic History", // Change category
+        image: course_images.python_4,
+        course_name: "Islamic Finance and Banking",
+        description: "Learn about Islamic finance principles and banking practices in accordance with Shariah law.",
+        rating_count: 3059,
+        rating_star: 4.3,
+        students: 184053,
+        creator: "Islamic Finance Expert",
+        updated_date: "9/2019",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Understand the Principles of Islamic Finance",
+            "Explore Shariah-Compliant Investment",
+            "Learn Islamic Banking Practices",
+            "Evaluate Islamic Insurance (Takaful)"
+        ],
+        content: [
+            "Introduction to Islamic Finance",
+            "Islamic Banking Products",
+            "Islamic Investment Principles",
+            "Islamic Insurance (Takaful)",
+            "Islamic Financial Markets",
+            "Islamic Finance Case Studies"
+        ]
+    },
+    {
+        id: "fLroW6",
+        category: "Islamic Studies", // Change category
+        image: course_images.python_3,
+        course_name: "Islamic Art and Architecture",
+        description: "Explore the rich heritage of Islamic art and architecture across different cultures and time periods.",
+        rating_count: 1844,
+        rating_star: 4.3,
+        students: 7330,
+        creator: "Islamic Art Historian",
+        updated_date: "5/2022",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Discover Islamic Art Styles",
+            "Explore Islamic Architecture",
+            "Understand Calligraphy and Manuscripts"
+        ],
+        content: [
+            "Introduction to Islamic Art",
+            "Islamic Calligraphy",
+            "Islamic Manuscripts",
+            "Islamic Architecture",
+            "Islamic Art Across Cultures",
+            "Islamic Art Conservation"
+        ]
+    },
 
     
 ];
 
-
-
-courses.forEach((course) => {
-    if (courseImageMapping.hasOwnProperty(course.course_name)) {
-        course.image = courseImageMapping[course.course_name];
-        console.log(course.image);
-    } else {
-        console.log("error");
-        // Handle cases where there is no mapping for the course name
-        // You can set a default image URL or take some other action here
-    }
-});
+for (const course of courses) {
+    console.log(`Course Name: ${course.course_name}`);
+    console.log(`Image: ${course.image}`);
+  }
+  
 
 export default courses;
 export const PYTHON = "Islamic Studies"; // Change category names as needed
