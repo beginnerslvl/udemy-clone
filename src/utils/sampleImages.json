@@ -1,7 +1,7 @@
 {
     "course_images": {
-      "aws_1": "../assets/images/aws_1.jpg",
-      "aws_2": "../assets/images/aws_2.jpg",
+      "aws_1": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
+      "aws_2": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
       "aws_3": "../assets/images/aws_3.jpg",
       "data_science_1": "../assets/images/data_science_1.jpg",
       "data_science_2": "../assets/images/data_science_2.jpg",
