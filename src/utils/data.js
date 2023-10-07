@@ -2,14 +2,44 @@ import { course_images } from "./images";
 import { fetchPexelsImageUrl } from './api';
 
 // Call the imported function to fetch and log the image URL
-fetchPexelsImageUrl();
+fetchPexelsImageUrl('nature')
+    .then((imageUrl) => {
+        console.log(`Image URL: ${imageUrl}`);
+    })
+    .catch((error) => {
+        console.error(`Error fetching image: ${error}`);
+    });
 
-const courseImageMapping = {
-    "Islamic Studies: The Comprehensive Islamic Course Studies": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
-    "Islamic Finance and Banking": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
-    "Islamic Art and Architecture": "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg",
-    // Add other course names and corresponding image URLs here
-};
+
+    const courseImageMapping = {
+        "Islamic Studies: The Comprehensive Islamic Course Studies": null,
+        "Islamic Finance and Banking": null,
+        "Islamic Art and Architecture": null,
+        // Add other course names as keys with null values
+    };
+    
+    export async function updateCourseImageMapping(courseImageMapping) {
+        for (const courseName in courseImageMapping) {
+            if (courseImageMapping.hasOwnProperty(courseName)) {
+                try {
+                    const imageUrl = await fetchPexelsImageUrl(courseName);
+                    courseImageMapping[courseName] = imageUrl;
+                } catch (error) {
+                    console.error(`Error fetching image for "${courseName}": ${error}`);
+                }
+            }
+        }
+    }
+    
+    // Call the function to update the courseImageMapping object
+    updateCourseImageMapping(courseImageMapping)
+        .then(() => {
+            console.log("Updated courseImageMapping:", courseImageMapping);
+        })
+        .catch((error) => {
+            console.error("Error updating courseImageMapping:", error);
+        });
+    
 
 const courses = [
     
@@ -17,6 +47,7 @@ const courses = [
         id: "xMHCZl",
         category: "Islamic Studies", // Change category
         course_name: "Islamic Studies: The Comprehensive Islamic Course",
+        image: "",
         description: "Learn A-Z everything about Islamic Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
         rating_count: 3059,
         rating_star: 4.4,
