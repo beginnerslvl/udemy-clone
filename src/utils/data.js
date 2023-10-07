@@ -157,7 +157,7 @@ const config = {
   };
   
 
-export { config, courses };
+export { config as default, courses };
 export const PYTHON = "Islamic Studies"; // Change category names as needed
 export const WEB_DEVELOPMENT = "Islamic History";
 export const DATA_SCIENCE = "Quranic Studies";
