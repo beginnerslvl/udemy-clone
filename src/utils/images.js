@@ -13,7 +13,7 @@ import python_1 from "../assets/images/python_1.jpg";
 import python_2 from "../assets/images/python_2.jpg";
 import python_3 from "../assets/images/python_3.jpg";
 import python_4 from "../assets/images/python_4.jpg";
-import python_5 from "../assets/images/python_5.jpg";
+// import python_5 from "../assets/images/python_5.jpg";
 import web_dev_1 from "../assets/images/web_dev_1.jpg";
 import web_dev_2 from "../assets/images/web_dev_2.jpg";
 import web_dev_3 from "../assets/images/web_dev_3.jpg";
