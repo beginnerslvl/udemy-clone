@@ -1,4 +1,8 @@
 import { course_images } from "./images";
+import { fetchPexelsImageUrl } from './api';
+
+// Call the imported function to fetch and log the image URL
+fetchPexelsImageUrl();
 
 
 const courses = [
@@ -152,55 +156,16 @@ const courses = [
     
 ];
 
-function fetchPexelsImageUrl() {
-    const apiKey = 'sHlEMO77bq1Ir6j0GC1tpmwbBPbTt9TXbJzdfLYzPkdeQLWjvTRWT5hM';
-    const searchQuery = 'islamic study';
-  
-    const headers = {
-      Authorization: apiKey,
-    };
-  
-    const apiUrl = `https://api.pexels.com/v1/search?query=${searchQuery}`;
-  
-    const fetchData = async () => {
-      try {
-        const response = await fetch(apiUrl, {
-          headers,
-        });
-  
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-  
-        const data = await response.json();
-        const photos = data.photos || [];
-  
-        if (photos.length > 0) {
-          const firstPhoto = photos[0];
-          const imageUrl = firstPhoto.src.original;
-  
-          console.log(`Image URL: ${imageUrl}`);
-        } else {
-          console.log('No images found for the query.');
-        }
-      } catch (error) {
-        console.error(`Error fetching image: ${error}`);
-      }
-    };
-  
-    fetchData();
-  }
-  
-  // Call the function to fetch and log the image URL
-  fetchPexelsImageUrl();
-  
+
 
 courses.forEach((course) => {
-    switch (course.course_name) {
-        case "Islamic Art and Architecture":
-            course.image = "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg"; // Replace with the correct image URL
-            break;
-        // Add cases for other course names and corresponding image URLs
+    if (courseImageMapping.hasOwnProperty(course.course_name)) {
+        course.image = courseImageMapping[course.course_name];
+        console.log( course.image)
+    } else {
+        console.log("error")
+        // Handle cases where there is no mapping for the course name
+        // You can set a default image URL or take some other action here
     }
 });
 
