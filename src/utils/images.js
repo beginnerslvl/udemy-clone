@@ -13,7 +13,7 @@ import python_1 from "../assets/images/python_1.jpg";
 import python_2 from "../assets/images/python_2.jpg";
 import python_3 from "../assets/images/python_3.jpg";
 import python_4 from "../assets/images/python_4.jpg";
-import python_5 from "../assets/images/python_5.jpg";
+// import python_5 from "../assets/images/python_5.jpg";
 import web_dev_1 from "../assets/images/web_dev_1.jpg";
 import web_dev_2 from "../assets/images/web_dev_2.jpg";
 import web_dev_3 from "../assets/images/web_dev_3.jpg";
@@ -29,6 +29,7 @@ import cat_web_development from "../assets/images/cat_web_development.png";
 import cat_design from "../assets/images/cat_design.png";
 import cat_marketing from "../assets/images/cat_marketing.png";
 import cat_python from "../assets/images/cat_python.png";
+const python_5 = "https://images.pexels.com/photos/6281718/pexels-photo-6281718.jpeg"
 
 const course_images = {
   aws_1,
