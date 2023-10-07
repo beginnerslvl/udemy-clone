@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
 import config from '../utils/config';
-const heroItems = config.navbarItems.map(item => item.label);
+const heroItems = config.heroItems.map(item => item.label);
 
 const shorttitle1 = heroItems[0]
 const saletitle = heroItems[1]
