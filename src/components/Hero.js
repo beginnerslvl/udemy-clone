@@ -9,50 +9,6 @@ const saletitle = heroItems[1]
 const slogon = heroItems[2]
 
 
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-
-const PexelsImageFetcher = () => {
-  const [imageUrl, setImageUrl] = useState('');
-  const apiKey = 'sHlEMO77bq1Ir6j0GC1tpmwbBPbTt9TXbJzdfLYzPkdeQLWjvTRWT5hM';
-  const searchQuery = 'islamic study';
-
-  useEffect(() => {
-    axios
-      .get(`https://api.pexels.com/v1/search?query=${searchQuery}`, {
-        headers: {
-          Authorization: apiKey,
-        },
-      })
-      .then((response) => {
-        const firstPhoto = response.data.photos[0];
-        if (firstPhoto) {
-          setImageUrl(firstPhoto.src.original);
-        } else {
-          console.log('No images found for the query.');
-        }
-      })
-      .catch((error) => {
-        console.error('Error fetching image:', error);
-      });
-  }, []);
-
-  return (
-    <div>
-      {imageUrl ? (
-        <div>
-          <p>Image URL:</p>
-          <img src={imageUrl} alt="Image" />
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
-    </div>
-  );
-};
-
-// export default PexelsImageFetcher;
-
 
 const Hero = () => {
   return (
