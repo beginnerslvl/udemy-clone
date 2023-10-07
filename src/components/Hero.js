@@ -2,22 +2,22 @@ import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
 import config from '../utils/config';
-const herotext = config.navbarItems.map(item => item.label);
+const heroItems = config.navbarItems.map(item => item.label);
 
-const slogon = herotext[0]
-console.log(slogon)
-// and so on...
+const shorttitle1 = heroItems[0]
+const saletitle = heroItems[1]
+const slogon = heroItems[2]
+
 
 const Hero = () => {
   return (
     <HeroWrapper className="bg-black">
       <div className="container h-100 flex">
         <div className="hero-content">
-          <h1>Learning for all</h1>
-          <p>Huge sale on courses from $9.99. Ends Aug. 31.</p>
+          <h1>{shorttitle1}</h1>
+          <p>{saletitle}</p>
           <p>
-            Thousands of courses to help you succeed in your goals at work and
-            in life.
+            {slogon}
           </p>
         </div>
       </div>

@@ -1,17 +1,12 @@
 const config = {
   // Navigation Bar
-  navbarItems: [
-    { label: 'Бургеры', href: '/female' },
-    { label: 'Пиццы', href: '/male' },
-    { label: 'Десерты', href: '/kids' },
-    { label: 'Весь Меню', href: '/products' },
-  ],
+
 
   // Hero Section
   heroItems: [
-    { label: 'Вкусная Еда - 70% Скидка' },
-    { label: 'Удовлетворьте Свои Желания' },
-    { label: 'Опыт Кулинарной Магии' },
+    { label: 'Learning for all' },
+    { label: 'Huge sale on courses from $9.99. Ends Aug. 31.' },
+    { label: 'Thousands of courses to help you succeed in your goals at work and            in life.' },
   ],
 
   // Promotion Section
