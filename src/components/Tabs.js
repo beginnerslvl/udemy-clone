@@ -15,22 +15,22 @@ const Tabs = () => {
       <div className='tabs'>
         <ul className='flex flex-wrap'>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === PYTHON}`} onClick = {() => tabHandler(PYTHON)}>Python</button>
+            <button type = "button" className={`tab-btn ${activeTab === PYTHON}`} onClick = {() => tabHandler(PYTHON)}>{PYTHON}</button>
           </li>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === WEB_DEVELOPMENT}`} onClick = {() => tabHandler(WEB_DEVELOPMENT)}>Web Development</button>
+            <button type = "button" className={`tab-btn ${activeTab === WEB_DEVELOPMENT}`} onClick = {() => tabHandler(WEB_DEVELOPMENT)}>{WEB_DEVELOPMENT}</button>
           </li>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === DATA_SCIENCE}`} onClick = {() => tabHandler(DATA_SCIENCE)}>Data Science</button>
+            <button type = "button" className={`tab-btn ${activeTab === DATA_SCIENCE}`} onClick = {() => tabHandler(DATA_SCIENCE)}>{DATA_SCIENCE}</button>
           </li>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === AWS}`} onClick = {() => tabHandler(AWS)}>AWS Certification</button>
+            <button type = "button" className={`tab-btn ${activeTab === AWS}`} onClick = {() => tabHandler(AWS)}>{AWS}</button>
           </li>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === DESIGN}`} onClick = {() => tabHandler(DESIGN)}>Design</button>
+            <button type = "button" className={`tab-btn ${activeTab === DESIGN}`} onClick = {() => tabHandler(DESIGN)}>{DESIGN}</button>
           </li>
           <li className='tabs-head-item'>
-            <button type = "button" className={`tab-btn ${activeTab === MARKETING}`} onClick = {() => tabHandler(MARKETING)}>Marketing</button>
+            <button type = "button" className={`tab-btn ${activeTab === MARKETING}`} onClick = {() => tabHandler(MARKETING)}>{MARKETING}</button>
           </li>
         </ul>
 
