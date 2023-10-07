@@ -16,7 +16,6 @@ const courses = [
     {
         id: "xMHCZl",
         category: "Islamic Studies", // Change category
-        image: course_images.python_5,
         course_name: "Islamic Studies: The Comprehensive Islamic Course",
         description: "Learn A-Z everything about Islamic Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
         rating_count: 3059,
