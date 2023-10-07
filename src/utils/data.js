@@ -186,44 +186,22 @@ async function fetchPexelsImageUrl(searchQuery) {
   }
   
   // Loop through courses and update the image property
-// Function to display the loading spinner
-function showLoadingSpinner() {
-    const loadingSpinner = document.getElementById('loading-spinner');
-    // You can customize the loading spinner style and animation here
-    loadingSpinner.innerHTML = 'Loading...'; // You can use HTML/CSS to create a spinner animation
-  }
-  
-  // Function to hide the loading spinner and display the fetched image
-  function hideLoadingSpinner(imageUrl) {
-    const loadingSpinner = document.getElementById('loading-spinner');
-    loadingSpinner.innerHTML = ''; // Remove the loading animation
-    const imageContainer = document.getElementById('image-container');
-    const image = new Image();
-    image.src = imageUrl;
-    imageContainer.appendChild(image);
-  }
-  
-  // Function to fetch and update course images
   async function updateCourseImages() {
     for (let i = 0; i < courses.length; i++) {
       const course = courses[i];
       const searchQuery = course.course_name;
-  
-      showLoadingSpinner(); // Display the loading spinner
   
       const imageUrl = await fetchPexelsImageUrl(searchQuery);
   
       if (imageUrl) {
         course.image = imageUrl;
         console.log(`Updated image for course: ${course.course_name}`);
-        hideLoadingSpinner(imageUrl); // Replace loading spinner with the fetched image
       }
     }
   }
   
   // Call the function to update course images
   updateCourseImages();
-  
   
   
 
