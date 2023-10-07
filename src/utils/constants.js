@@ -1,6 +1,6 @@
-export const PYTHON = "python";     
-export const WEB_DEVELOPMENT = "web development";
-export const DATA_SCIENCE = "data science";
-export const AWS = "aws";
-export const DESIGN = "design";
-export const MARKETING = "marketing";
+export const PYTHON = "Islamic Studies"; // Change category names as needed
+export const WEB_DEVELOPMENT = "Islamic History";
+export const DATA_SCIENCE = "Quranic Studies";
+export const AWS = "Islamic Law";
+export const DESIGN = "Islamic Art";
+export const MARKETING = "Islamic Finance";
