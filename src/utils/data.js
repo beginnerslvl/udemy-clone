@@ -161,9 +161,9 @@ const courses = [
 courses.forEach((course) => {
     if (courseImageMapping.hasOwnProperty(course.course_name)) {
         course.image = courseImageMapping[course.course_name];
-        console.log( course.image)
+        console.log(course.image);
     } else {
-        console.log("error")
+        console.log("error");
         // Handle cases where there is no mapping for the course name
         // You can set a default image URL or take some other action here
     }
