@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
-import config from '.../utils/data';
 import { config } from '../utils/data';
 
 const footertext = config.heroItems.map(item => item.label);
