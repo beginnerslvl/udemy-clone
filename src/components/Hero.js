@@ -1,6 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
+import config from '.../utils/data';
+import { config } from '../utils/data';
+
+const footertext = config.heroItems.map(item => item.label);
+
+const slogan1 = footertext[0];
+const slogan2 = footertext[1];
+console.log(slogan1,slogan2)
+// and so on...
 
 const Hero = () => {
   return (

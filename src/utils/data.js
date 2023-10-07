@@ -1,5 +1,13 @@
 import { course_images } from "./images";
 
+const config = { 
+    heroItems: [
+        { label: 'Вкусная Еда - 70% Скидка' },
+        { label: 'Удовлетворьте Свои Желания' },
+        { label: 'Опыт Кулинарной Магии' },
+      ],
+}
+
 const courses = [
     {
         id: "xMHCZl",
