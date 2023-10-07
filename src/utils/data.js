@@ -2,100 +2,104 @@ import { course_images } from "./images";
 
  //  category names 
 // Updated category names
-export const PYTHON = "Social Media Marketing";
-export const WEB_DEVELOPMENT = "Social Media Marketing History";
-export const DATA_SCIENCE = "Social Media Marketing Studies";
-export const AWS = "Social Media Marketing Law";
-export const DESIGN = "Social Media Marketing Art";
-export const MARKETING = "Social Media Marketing Finance";
+export const PYTHON = "Multi Programming Language Studies";
+export const WEB_DEVELOPMENT = "Multi Programming Language History";
+export const DATA_SCIENCE = "Multi Programming Language Data Science";
+export const AWS = "Multi Programming Language AWS";
+export const DESIGN = "Multi Programming Language Design";
+export const MARKETING = "Multi Programming Language Marketing";
 
 const courses = [
     {
         id: "xMHCZl",
-        category: "Social Media Marketing", // Change category
+        category: "Multi Programming Language Studies", // Updated category
         image: course_images.python_5,
-        course_name: "Social Media Marketing: The Comprehensive Course",
-        description: "Learn A-Z everything about Social Media Marketing, from the basics to advanced topics in digital marketing and social media strategies!",
+        course_name: "Multi Programming Language Studies: The Comprehensive Multi Programming Language Course",
+        description: "Learn A-Z everything about Multi Programming Language Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
         rating_count: 3059,
         rating_star: 4.4,
         students: 18430,
-        creator: "Social Media Marketing Institute",
+        creator: "Multi Programming Language Scholar Institute",
         updated_date: "9/2015",
         lang: "English",
         actual_price: 84.99,
         discounted_price: 9.99,
         what_you_will_learn: [
-            "Study Social Media Marketing Theories",
-            "Become Proficient in Social Media Advertising",
-            "Understand Social Media Analytics"
+            "Study Multi Programming Language Theology",
+            "Become Proficient in Quranic Recitation",
+            "Understand Hadith Interpretation"
         ],
         content: [
-            "Introduction to Social Media Marketing",
-            "Digital Marketing Strategies",
-            "Social Media Advertising",
-            "Social Media Analytics",
-            "Social Media History",
-            "Social Media Ethics",
-            "Contemporary Issues in Social Media Marketing"
+            "Introduction to Multi Programming Language Studies",
+            "The Quran and Its Sciences",
+            "Hadith and Its Importance",
+            "Multi Programming Language Jurisprudence",
+            "Multi Programming Language History",
+            "Multi Programming Language Ethics",
+            "Contemporary Issues in Islam"
         ]
     },
     {
         id: "dtfo9e",
-        category: "Social Media Marketing", // Change category
+        category: "Multi Programming Language Finance and Banking", // Updated category
         image: course_images.python_4,
-        course_name: "Social Media Marketing Finance and Banking",
-        description: "Learn about financial principles and banking practices in the context of Social Media Marketing.",
+        course_name: "Multi Programming Language Finance and Banking",
+        description: "Learn about Multi Programming Language Finance principles and banking practices in accordance with Shariah law.",
         rating_count: 3059,
         rating_star: 4.3,
         students: 184053,
-        creator: "Social Media Marketing Finance Expert",
+        creator: "Multi Programming Language Finance Expert",
         updated_date: "9/2019",
         lang: "English",
         actual_price: 84.99,
         discounted_price: 9.99,
         what_you_will_learn: [
-            "Understand Financial Principles in Social Media Marketing",
-            "Explore Social Media Marketing Investment",
-            "Learn Social Media Banking Practices",
-            "Evaluate Social Media Marketing Insurance"
+            "Understand the Principles of Multi Programming Language Finance",
+            "Explore Shariah-Compliant Investment",
+            "Learn Multi Programming Language Banking Practices",
+            "Evaluate Multi Programming Language Insurance (Takaful)"
         ],
         content: [
-            "Introduction to Financial Principles in Social Media Marketing",
-            "Social Media Banking Products",
-            "Social Media Marketing Investment Principles",
-            "Social Media Marketing Insurance",
-            "Social Media Financial Markets",
-            "Social Media Marketing Finance Case Studies"
+            "Introduction to Multi Programming Language Finance",
+            "Multi Programming Language Banking Products",
+            "Multi Programming Language Investment Principles",
+            "Multi Programming Language Insurance (Takaful)",
+            "Multi Programming Language Financial Markets",
+            "Multi Programming Language Finance Case Studies"
         ]
     },
     {
         id: "fLroW6",
-        category: "Social Media Marketing", // Change category
+        category: "Multi Programming Language Art and Architecture", // Updated category
         image: course_images.python_3,
-        course_name: "Social Media Marketing Art and Design",
-        description: "Explore the art and design aspects of Social Media Marketing across different platforms and creative strategies.",
+        course_name: "Multi Programming Language Art and Architecture",
+        description: "Explore the rich heritage of Multi Programming Language art and architecture across different cultures and time periods.",
         rating_count: 1844,
         rating_star: 4.3,
         students: 7330,
-        creator: "Social Media Marketing Art Historian",
+        creator: "Multi Programming Language Art Historian",
         updated_date: "5/2022",
         lang: "English",
         actual_price: 84.99,
         discounted_price: 9.99,
         what_you_will_learn: [
-            "Discover Social Media Art Styles",
-            "Explore Social Media Design",
-            "Understand Calligraphy and Creativity in Social Media"
+            "Discover Multi Programming Language Art Styles",
+            "Explore Multi Programming Language Architecture",
+            "Understand Calligraphy and Manuscripts"
         ],
         content: [
-            "Introduction to Art in Social Media Marketing",
-            "Social Media Calligraphy",
-            "Social Media Art and Design",
-            "Social Media Art Across Platforms",
-            "Social Media Art Conservation"
+            "Introduction to Multi Programming Language Art",
+            "Multi Programming Language Calligraphy",
+            "Multi Programming Language Manuscripts",
+            "Multi Programming Language Architecture",
+            "Multi Programming Language Art Across Cultures",
+            "Multi Programming Language Art Conservation"
         ]
     },
+    // Add more courses here with updated categories as needed
 ];
+
+
 
   
  //images 
