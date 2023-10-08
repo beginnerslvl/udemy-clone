@@ -13,16 +13,16 @@ const setRootCSSVariables = () => {
   const root = document.documentElement;
 
   // Define your CSS variable values
-  root.style.setProperty("--base-font", '"Raleway", sans-serif');
-  root.style.setProperty("--clr-white", "#fff");
-  root.style.setProperty("--clr-black", "#000");
-  root.style.setProperty("--clr-primary", "#ad49f2");
-  root.style.setProperty("--clr-dark", "#1c1d1f");
-  root.style.setProperty("--clr-purple", "#a435f0");
-  root.style.setProperty("--clr-pink", "#e91e63");
-  root.style.setProperty("--clr-alice-blue", "#f8f9fb");
-  root.style.setProperty("--spacing", "0.1rem");
-  root.style.setProperty("--transition", "all 300ms linear");
+  root.style.setProperty("--primaryColor", '#03002E');
+  root.style.setProperty("--primaryColor1", "white");
+  root.style.setProperty("--primaryColor2", "#18c6dd");
+  // root.style.setProperty("--clr-primary", "#ad49f2");
+  // root.style.setProperty("--clr-dark", "#1c1d1f");
+  // root.style.setProperty("--clr-purple", "#a435f0");
+  // root.style.setProperty("--clr-pink", "#e91e63");
+  // root.style.setProperty("--clr-alice-blue", "#f8f9fb");
+  // root.style.setProperty("--spacing", "0.1rem");
+  // root.style.setProperty("--transition", "all 300ms linear");
 };
 
 // Call the function to set CSS variables before rendering the app
