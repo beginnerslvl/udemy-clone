@@ -21,9 +21,9 @@ const setRootCSSVariables = () => {
   const root = document.documentElement;
 
   // Define your CSS variable values
-  root.style.setProperty("--primaryColor", {color1});
-  root.style.setProperty("--primaryColor1", {color2});
-  root.style.setProperty("--primaryColor2", {color3});
+  root.style.setProperty("--primaryColor", 'white');
+  root.style.setProperty("--primaryColor1", 'white');
+  root.style.setProperty("--primaryColor2", 'white');
   // root.style.setProperty("--clr-primary", "#ad49f2");
   // root.style.setProperty("--clr-dark", "#1c1d1f");
   // root.style.setProperty("--clr-purple", "#a435f0");
