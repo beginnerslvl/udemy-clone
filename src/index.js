@@ -7,10 +7,12 @@ import { CartProvider } from "./context/cart_context";
 import  config from './utils/config';
 const design = config.design.map(item => item.label);
 
-const color1 = design[0]
-const color2 = design[1]
-const color3 = design[2]
-
+// const color1 = design[0]
+// const color2 = design[1]
+// const color3 = design[2]
+const color1 = "white"
+const color2 = "white"
+const color3 = "white"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Define and apply CSS variables
