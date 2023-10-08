@@ -4,7 +4,7 @@ import App from "./App";
 import { SidebarProvider } from "./context/sidebar_context";
 import { CoursesProvider } from "./context/courses_context";
 import { CartProvider } from "./context/cart_context";
-import { config } from './utils/config';
+import { config } from './utils/data';
 const design = config.design.map(item => item.label);
 
 const color1 = design[0]
