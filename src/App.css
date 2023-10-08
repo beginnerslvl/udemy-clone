@@ -6,7 +6,7 @@
   --clr-black: #000;
   --clr-primary: #ad49f2;
   --clr-dark: #1c1d1f;
-  --clr-purple: #18c6dd;
+  --clr-purple: #49a8db;
   --clr-pink: #e91e63;
   --clr-alice-blue: #f8f9fb;
   --spacing: 0.1rem;
@@ -362,4 +362,23 @@ select {
 .resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
+}
+
+
+nav img{
+    background-color: #fff;
+    padding: .5em 1.25em;
+}
+.hero-content{
+    color: var(--primaryColor);
+}
+.tabs-head-item button{
+    border: 1px solid var(--primaryColor1);
+    color: var(--primaryColor1);
+}
+.item-creator{
+    color: var(--primaryColor2);
+}
+.iMuSmN .item-btns .item-btn.see-details-btn{
+    border: 1px solid black;
 }
