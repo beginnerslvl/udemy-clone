@@ -13,8 +13,8 @@
   --transition: all 300ms linear;
 
   --primaryColor:#03002E;
-  --primaryColor1:white;
-  --primaryColor2:#18c6dd;
+  --primaryColor1:rgb(0, 0, 0);
+  --primaryColor2:#000000;
 }
 
 /* global styles and resets */
