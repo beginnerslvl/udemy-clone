@@ -4,6 +4,12 @@ import App from "./App";
 import { SidebarProvider } from "./context/sidebar_context";
 import { CoursesProvider } from "./context/courses_context";
 import { CartProvider } from "./context/cart_context";
+import { config } from '../utils/config';
+const design = config.design.map(item => item.label);
+
+const color1 = design[0]
+const color2 = design[1]
+const color3 = design[2]
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,9 +19,9 @@ const setRootCSSVariables = () => {
   const root = document.documentElement;
 
   // Define your CSS variable values
-  root.style.setProperty("--primaryColor", '#03002E');
-  root.style.setProperty("--primaryColor1", "white");
-  root.style.setProperty("--primaryColor2", "#18c6dd");
+  root.style.setProperty("--primaryColor", {color1});
+  root.style.setProperty("--primaryColor1", {color2});
+  root.style.setProperty("--primaryColor2", {color3});
   // root.style.setProperty("--clr-primary", "#ad49f2");
   // root.style.setProperty("--clr-dark", "#1c1d1f");
   // root.style.setProperty("--clr-purple", "#a435f0");
