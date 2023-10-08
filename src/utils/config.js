@@ -11,9 +11,9 @@ const config = {
 
   // Design Color Scheme
   design: [
-    { label: '#FF5733' },    // primaryColor (bright orange)
+    { label: 'white' },    // primaryColor (bright orange)
     { label: 'white' },      // primaryColor1
-    { label: '#212121' },    // primaryColor2 (dark gray)
+    { label: 'white' },    // primaryColor2 (dark gray)
   ],
 };
 
