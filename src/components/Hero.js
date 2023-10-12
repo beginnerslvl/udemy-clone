@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { other_images } from "../utils/images";
-import config from '../utils/config';
+import  config  from '../utils/config';
 const heroItems = config.heroItems.map(item => item.label);
 
 const shorttitle1 = heroItems[0]

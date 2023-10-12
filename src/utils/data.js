@@ -151,5 +151,6 @@ async function fetchPexelsImageUrl(searchQuery) {
   updateCourseImages();  
 
 
+  
 export default courses;
 
