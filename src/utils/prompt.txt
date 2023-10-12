@@ -1,0 +1,212 @@
+WITHOUT MISSING ANYTHING ANY LABEL ANY INSTRUCTION BELOW HELP JACK ACHIEVE HIS DESIRED TASK WITH ALL THE INSTRUCTIONS BELOW 
+keep the variable name PYTHON,WEB_DEVELOPMENT,DATA_SCIENCE ,AWS ,DESIGN ,MARKETING SAME do not change these but change the values they hold do not keep the same values change the values like a,b,c all should be similar to jacks course which is a multi programming language  course think about all the categories that could be added
+the most important thing is not to miss any label and not to say '// ... (other course details)'
+instead ful fill the requirement below and give me the complete code to help jack 
+
+using the instructions below help jack to convert his courses to a an multi programming language  course provider remove all the current fields and convert the complete thing to multi programming language  course provider company
+Jack is working  at a tech company he is working to create and work on coureses 
+they have two main coureses files as told below by sarah 
+jacks boss wants jack to add new categories to make this an multi programming language  course provider using the instructions below by sarah help jack 
+
+Sarah:please remmmeber that we have to change it from a the orignal company to a multi programming language  course provider we have to change not add
+Jack: has to use the instructions above and both the files to understand his task he has broken down the task to work on the both files to create an multi programming language  course provider
+he now knows 
+all of these are the cateogry names he has to change these to a creative an multi programming language  course provider company he is asked not to change the variable name for example he cant change the export const PYTHON to something else but he is advised to change the value the variable holds like multi programming language  studies multi programming language  History  Quranic Studies multi programming language  Law to something related to his company whcih is a multi programming language  course provider company he is advised to creatively change these categories
+export const PYTHON = "multi programming language  Studies";
+export const WEB_DEVELOPMENT = "multi programming language  History";
+export const DATA_SCIENCE = "Quranic Studies";
+export const AWS = "multi programming language  Law";
+export const DESIGN = "multi programming language  Art";
+export const MARKETING = "multi programming language  Finance";
+keep the variable name PYTHON,WEB_DEVELOPMENT,DATA_SCIENCE ,AWS ,DESIGN ,MARKETING SAME do not change these
+
+then comes his courses in the const courses each of these
+ {
+        id: "xMHCZl",
+        category: "multi programming language  Studies", // Change category
+        image: course_images.python_5,
+        course_name: "multi programming language  Studies: The Comprehensive multi programming language  Course",
+        description: "Learn A-Z everything about multi programming language  Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
+        rating_count: 3059,
+        rating_star: 4.4,
+        students: 18430,
+        creator: "multi programming language  Scholar Institute",
+        updated_date: "9/2015",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Study multi programming language  Theology",
+            "Become Proficient in Quranic Recitation",
+            "Understand Hadith Interpretation"
+        ],
+        content: [
+            "Introduction to multi programming language  Studies",
+            "The Quran and Its Sciences",
+            "Hadith and Its Importance",
+            "multi programming language  Jurisprudence",
+            "multi programming language  History",
+            "multi programming language  Ethics",
+            "Contemporary Issues in Islam"
+        ]
+    },
+represent a course he is advised to create courses related to a multi programming language  he is highly advised not to miss any label 
+WITHOUT MISSING ANYTHING ANY LABEL ANY INSTRUCTION BELOW HELP JACK ACHIEVE HIS DESIRED TASK WITH ALL THE INSTRUCTIONS BELOW
+ //  category names 
+export const PYTHON = "multi programming language  Studies";
+export const WEB_DEVELOPMENT = "multi programming language  History";
+export const DATA_SCIENCE = "Quranic Studies";
+export const AWS = "multi programming language  Law";
+export const DESIGN = "multi programming language  Art";
+export const MARKETING = "multi programming language  Finance";
+const courses = [
+    
+    {
+        id: "xMHCZl",
+        category: "multi programming language  Studies", // Change category
+        image: course_images.python_5,
+        course_name: "multi programming language  Studies: The Comprehensive multi programming language  Course",
+        description: "Learn A-Z everything about multi programming language  Studies, from the basics, to advanced topics in Quran, Hadith, and more!",
+        rating_count: 3059,
+        rating_star: 4.4,
+        students: 18430,
+        creator: "multi programming language  Scholar Institute",
+        updated_date: "9/2015",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Study multi programming language  Theology",
+            "Become Proficient in Quranic Recitation",
+            "Understand Hadith Interpretation"
+        ],
+        content: [
+            "Introduction to multi programming language  Studies",
+            "The Quran and Its Sciences",
+            "Hadith and Its Importance",
+            "multi programming language  Jurisprudence",
+            "multi programming language  History",
+            "multi programming language  Ethics",
+            "Contemporary Issues in Islam"
+        ]
+    },
+    {
+        id: "dtfo9e",
+        category: "multi programming language  Studies", // Change category
+        image: course_images.python_4,
+        course_name: "multi programming language  Finance and Banking",
+        description: "Learn about multi programming language  finance principles and banking practices in accordance with Shariah law.",
+        rating_count: 3059,
+        rating_star: 4.3,
+        students: 184053,
+        creator: "multi programming language  Finance Expert",
+        updated_date: "9/2019",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Understand the Principles of multi programming language  Finance",
+            "Explore Shariah-Compliant Investment",
+            "Learn multi programming language  Banking Practices",
+            "Evaluate multi programming language  Insurance (Takaful)"
+        ],
+        content: [
+            "Introduction to multi programming language  Finance",
+            "multi programming language  Banking Products",
+            "multi programming language  Investment Principles",
+            "multi programming language  Insurance (Takaful)",
+            "multi programming language  Financial Markets",
+            "multi programming language  Finance Case Studies"
+        ]
+    },
+    {
+        id: "fLroW6",
+        category: "multi programming language  Studies", // Change category
+        image: course_images.python_3,
+        course_name: "multi programming language  Art and Architecture",
+        description: "Explore the rich heritage of multi programming language  art and architecture across different cultures and time periods.",
+        rating_count: 1844,
+        rating_star: 4.3,
+        students: 7330,
+        creator: "multi programming language  Art Historian",
+        updated_date: "5/2022",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Discover multi programming language  Art Styles",
+            "Explore multi programming language  Architecture",
+            "Understand Calligraphy and Manuscripts"
+        ],
+        content: [
+            "Introduction to multi programming language  Art",
+            "multi programming language  Calligraphy",
+            "multi programming language  Manuscripts",
+            "multi programming language  Architecture",
+            "multi programming language  Art Across Cultures",
+            "multi programming language  Art Conservation"
+        ]
+    },
+    
+
+    {
+        id: "dtfo9e",
+        category: "multi programming language  History", // Change category
+        image: course_images.python_4,
+        course_name: "multi programming language  Finance and Banking",
+        description: "Learn about multi programming language  finance principles and banking practices in accordance with Shariah law.",
+        rating_count: 3059,
+        rating_star: 4.3,
+        students: 184053,
+        creator: "multi programming language  Finance Expert",
+        updated_date: "9/2019",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Understand the Principles of multi programming language  Finance",
+            "Explore Shariah-Compliant Investment",
+            "Learn multi programming language  Banking Practices",
+            "Evaluate multi programming language  Insurance (Takaful)"
+        ],
+        content: [
+            "Introduction to multi programming language  Finance",
+            "multi programming language  Banking Products",
+            "multi programming language  Investment Principles",
+            "multi programming language  Insurance (Takaful)",
+            "multi programming language  Financial Markets",
+            "multi programming language  Finance Case Studies"
+        ]
+    },
+    {
+        id: "fLroW6",
+        category: "multi programming language  Studies", // Change category
+        image: course_images.python_3,
+        course_name: "multi programming language  Art and Architecture",
+        description: "Explore the rich heritage of multi programming language  art and architecture across different cultures and time periods.",
+        rating_count: 1844,
+        rating_star: 4.3,
+        students: 7330,
+        creator: "multi programming language  Art Historian",
+        updated_date: "5/2022",
+        lang: "English",
+        actual_price: 84.99,
+        discounted_price: 9.99,
+        what_you_will_learn: [
+            "Discover multi programming language  Art Styles",
+            "Explore multi programming language  Architecture",
+            "Understand Calligraphy and Manuscripts"
+        ],
+        content: [
+            "Introduction to multi programming language  Art",
+            "multi programming language  Calligraphy",
+            "multi programming language  Manuscripts",
+            "multi programming language  Architecture",
+            "multi programming language  Art Across Cultures",
+            "multi programming language  Art Conservation"
+        ]
+    },
+
+    
+];
+  
