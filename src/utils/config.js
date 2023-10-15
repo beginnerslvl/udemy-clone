@@ -4,7 +4,7 @@ const config = {
 
   // Hero Section
   heroItems: [
-    { label: 'Learning for all' },
+    { label: 'Learning for all1' },
     { label: 'Huge sale on courses from $9.99. Ends Aug. 31.' },
     { label: 'Thousands of courses to help you succeed in your goals at work and            in life.' },
   ],
